@@ -304,29 +304,29 @@
                 </p>
             </div>
             <div class="col s12 m8 indigo-text">
-                <form id="contactForm" novalidate="novalidate" action="https://formspree.io/gxr199@gmail.com" method="post">
+                <form id="contactForm" action="https://formspree.io/gxr199@gmail.com" method="post">
                     <div class="input-field">
-                        <input name="name" required="" data-schema-key="name" maxlength="50" type="text">
+                        <input name="name" required="" data-schema-key="name" maxlength="50" type="text" required>
                         <label for="name">
-                        Name
+                        Your Name
                         </label>
                     </div>
                     <div class="input-field">
-                        <input name="email" required="" data-schema-key="email" type="text">
+                        <input name="_replyto" required="" data-schema-key="email" type="text" required>
                         <label for="email">
-                        Email
+                        Your Email
                         </label>
                     </div>
                     <div class="input-field">
-                        <input name="subject" data-schema-key="subject" type="text">
+                        <input name="subject" data-schema-key="subject" type="text" required>
                         <label for="subject">
                             Subject
                         </label>
                     </div>
                     <div class="input-field">
-                        <textarea name="message" rows="5" required="" data-schema-key="message" maxlength="1000" class="materialize-textarea"></textarea>
+                        <textarea name="message" rows="5" required="" data-schema-key="message" maxlength="1000" class="materialize-textarea" required></textarea>
                         <label for="message">
-                        Message
+                        Your Message
                         </label>
                     </div>
                     <br />
