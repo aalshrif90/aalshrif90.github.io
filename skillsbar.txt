@@ -1,0 +1,56 @@
+<div class="container" id="skills">
+    <h4 class="text uppercase text center">Skills</h4>
+    <div class="row">
+        <div class="card-panel grey lighten-5 z-depth-4">
+          <div class="row valign-wrapper">
+            <div class="col s12 center">
+                <div class="col s12 center">
+                    This is based on my experance and the time I developed with those langauges.
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="95%">
+	                    <div class="skillbar-title" style="background: #d35400;"><span>Java</span></div>
+	                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+	                    <div class="skill-bar-percent">95%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="95%">
+	                    <div class="skillbar-title" style="background: #3498db;"><span>Python</span></div>
+	                    <div class="skillbar-bar" style="background: #3498db;"></div>
+	                    <div class="skill-bar-percent">95%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="90%">
+                      <div class="skillbar-title" style="background: #525252;"><span>SQL+NoSQL</span></div>
+                      <div class="skillbar-bar" style="background: #525252;"></div>
+                      <div class="skill-bar-percent">90%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="80%">
+                      <div class="skillbar-title" style="background: #4288d0;"><span>Web Dev</span></div>
+                      <div class="skillbar-bar" style="background: #4288d0;"></div>
+                      <div class="skill-bar-percent">80%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="75%">
+                      <div class="skillbar-title" style="background: #2ecc71;"><span>R</span></div>
+                      <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                      <div class="skill-bar-percent">75%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+                <div class="col s12">
+                    <div class="skillbar clearfix " data-percent="60%">
+	                    <div class="skillbar-title" style="background: #2c3e50;"><span>Linux</span></div>
+	                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
+	                    <div class="skill-bar-percent">60%</div>
+                    </div> <!-- End Skill Bar -->
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
