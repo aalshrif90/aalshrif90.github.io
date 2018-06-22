@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-		 <title>Abdullah Alsharif - Publications</title>
+		 <title>Abdullah Alsharif</title>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
      <meta name="keywords" content="Abdullah Alsharif, Publications,Edinburgh, Napier University, GearedApp, Sheffield, University of Sheffield, PhD, Phil McMinn,Software Developement, Software Engineering, Software Testing, Search-Based Software Testing, Search-Based Software Engineering, software productivity, software economics, maintenance, software testing">
@@ -17,6 +17,7 @@
     <link href="../assets/css/timeline.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../assets/css/skillsbar.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103923215-2"></script>
     <script>
@@ -27,7 +28,6 @@
       gtag('config', 'UA-103923215-2');
     </script>
 
-
   </head>
   <body>
 <style>
@@ -36,6 +36,10 @@
     height: 100%;
 }
 
+
+p.uppercase {
+    text-transform: uppercase;
+}
 </style>
 
 <!-- Navbar and Header -->
@@ -86,7 +90,7 @@
   <div class="nav-header center block">
     <!-- Show Carousel instead of default page titles -->
     <br />
-    <h1>Publications</h1>
+    <br />
     <br />
 </nav>
 <ul class="side-nav" id="nav-mobile">
@@ -133,53 +137,66 @@
     <div class="row">
       <div class="col s12">
         <div class="card-panel grey lighten-5 z-depth-4">
-          <div class="row valign-wrapper">
+          <div class="row">
             <div class="col s12">
-              <ul class="collection grey lighten-5 z-depth-5 with-header">
-                <li class="collection-header"><h4>2018</h4></li>
-                <li class="collection-item avatar">
-                  <p><h6>by Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn</h6></p>
-                  <span class="title"><a href="pup1.html"><h5>DOMINO: Fast and Effective Test Data Generation for Relational Database Schemas</h5></a></span>
-                  <p><h6>Proceedings of the 11th International Conference on Software Testing, Verification and Validation</h6></p>
-                </li>
-                <li class="collection-item avatar">
-                  <p><h6>by Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn</h6></p>
-                  <span class="title"><a href="pup2.html"><h5>Running experiments and performing data analysis using SchemaAnalyst and DOMINO</h5></a></span>
-                  <p><h6>Proceedings of the 11th International Conference on Software Testing, Verification and Validation – Artefacts Track, 2018</h6></p>
-                </li>
-                <li class="collection-item avatar">
-                  <p><h6>by Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn</h6></p>
-                  <span class="title"><a href="pup3.html"><h5>Generating test suites with DOMINO</h5></a></span>
-                  <p><h6>Proceedings of the 11th International Conference on Software Testing, Verification and Validation – Demonstrations Track, 2018</h6></p>
-                </li>
-              </ul>
+              <span class="title"><a href="#"><h5>Generating test suites with DOMINO</h5></a></span>
+              <p><h6>by Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn</h6></p>
+              <p class="uppercase"><h6>Proceedings of the 11th International Conference on Software Testing, Verification and Validation – Demonstrations Track, 2018</h6></p>
+              <hr />
             </div>
-          </div>
-          <!--
-          <div class="row valign-wrapper">
             <div class="col s12 center">
-              <ul class="collection grey lighten-5 z-depth-5 with-header">
-                <li class="collection-header"><h4>2018</h4></li>
-                <li class="collection-item avatar">
-                  <i class="material-icons circle">folder</i>
-                  <span class="title">Title</span>
-                  <p>First Line <br>
-                     Second Line
-                  </p>
-                  <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
-                </li>
-                <li class="collection-item avatar">
-                  <i class="material-icons circle center">folder</i>
-                  <span class="title"><h3>Title</h3></span>
-                  <p>First Line <br>
-                     Second Line
-                  </p>
-                  <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                </li>
-              </ul>
+              <p style="text-align:center">
+                <div class="col s4">
+                  <a href="/publications/files/Alsharif2018a-paper.pdf" target="_blank"><i class="small material-icons">file_download</i><br />PAPER DOWNLOAD</a>
+                </div>
+                <div class="col s4">
+                  <a href="/publications/files/Alsharif2018a-presentation.pdf" target="_blank"><i class="small material-icons">file_download</i><br />PRESENTATION DOWNLOAD PDF</a>
+                </div>
+                <div class="col s4">
+                  <a class="social" href="https://github.com/schemaanalyst/schemaanalyst" target="_blank"><i class="fab fa-github fa-2x"></i><br />schemaanalyst/schemaanalyst</a>
+                </div>
+
+              </p>
+            </div>
+            <div class="col s12">
+              <hr />
+              <p>
+                <h6>Abstract</h6>
+                <br />
+Industrial practitioners advocate the testing of relational database schemas because, for instance, omitting the definition of an integrity constraint (i.e., a PRIMARY KEY or a UNIQUE) in a schema can compromise correctness and increase maintenance costs. For example, forgetting to mark each username as UNIQUE could lead to incorrect data duplication within a database. Also, different database management systems (DBMSs) often interpret integrity constraints differently (e.g., a PRIMARY KEY can accept a NULL value once with SQLite but not with other DBMSs). In this paper and the accompanying demonstration we introduce the use and benefits of DOMINO (DOMain-specific approach to INtegrity cOnstraint test data generation), a new technique that automatically generates a test suite for a database schema.
+              </p>
+              <hr />
+              <p><h6>Reference</h6><br />
+Alsharif, A., Kapfhammer, G. M., & McMinn, P. (2018). Generating test suites with DOMINO. In Proceedings of the 11th International Conference on Software Testing, Verification and Validation – Demonstrations Track.
+              </p>
+
+              <hr />
+              <p><h6>BibTex Entry</h6></p>
+              <pre class="grey lighten-3" style="font-family:courier; text-align:left;white-space: pre-wrap;">
+                @inproceedings{Alsharif2018a,
+                  author    = {Abdullah Alsharif and Gregory M. Kapfhammer and Phil McMinn},
+                  title     = {Generating test suites with DOMINO},
+                  booktitle = {Proceedings of the 11th International Conference on Software Testing, Verification and Validation -- Demonstrations Track},
+                  year      = {2018},
+                  abstract  = {Industrial practitioners advocate the testing of relational
+                               database schemas because, for instance, omitting the definition of an
+                               integrity constraint (i.e., a PRIMARY KEY or a UNIQUE) in a schema can
+                               compromise correctness and increase maintenance costs. For example,
+                               forgetting to mark each username as UNIQUE could lead to incorrect data
+                               duplication within a database. Also, different database management
+                               systems (DBMSs) often interpret integrity constraints differently (e.g.,
+                               a PRIMARY KEY can accept a NULL value once with SQLite but not with
+                               other DBMSs). In this paper and the accompanying demonstration we introduce
+                               the use and benefits of DOMINO (DOMain-specific approach to INtegrity cOnstraint
+                               test data generation), a new technique that automatically generates a test
+                               suite for a database schema.},
+                  tool      = {https://github.com/schemaanalyst/schemaanalyst},
+                  presentation = {https://aalshrif90.github.io/publications/files/Alsharif2018a-presentation.pdf},
+                  presented = {true}
+                }
+              </pre>
             </div>
           </div>
-        -->
         </div>
       </div>
     </div>
