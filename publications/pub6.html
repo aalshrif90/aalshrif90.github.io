@@ -141,21 +141,20 @@
                     <div class="row">
                         <div class="col s12">
                             <span class="title"><a href="#">
-                                    <h5>STICCER: Fast and Effective Database Test Suite Reduction Through Merging of Similar Test Cases</h5>
+                                    <h5>Hybrid Methods for Reducing Database Schema Test Suites: Experimental Insights from Computational and Human Studies</h5>
                                 </a></span>
                             <p>
                                 <h6>by Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn</h6>
                             </p>
                             <p class="uppercase">
-                                <h6>Proceedings of the 13th International Conference on Software Testing, Verification and
-                                    Validation</h6>
+                                <h6>Proceedings of the 1st IEEE/ACM International Conference on Automation of Software Test</h6>
                             </p>
                             <hr />
                         </div>
                         <div class="col s12 center">
                             <p style="text-align:center">
                                 <div class="col s3">
-                                    <a href="/publications/files/Alsharif2020-1-paper.pdf" target="_blank"><i
+                                    <a href="/publications/files/Alsharif2020-2-paper.pdf" target="_blank"><i
                                             class="small material-icons">file_download</i><br />PAPER DOWNLOAD</a>
                                 </div>
 
@@ -184,13 +183,12 @@
                             <p>
                                 <hr />
                                 <h6>Abstract</h6><br />
-                                Since relational databases support many software applications, industry professionals recommend testing both database queries and the underlying database schema that contains complex integrity constraints. These constraints, which include primary and foreign keys, NOT NULL, and arbitrary CHECK constraints, are important because they protect the consistency and coherency of data in the relational database. Since testing integrity constraints is potentially an arduous task, human testers can use new tools to automatically generate test suites that effectively find schema faults. However, these tool-generated test suites often contain many lengthy tests that may both increase the time overhead of regression testing and limit the ability of human testers to understand them. Aiming to reduce the size of automatically generated test suites for database schemas, this paper introduces STICCER, a technique that finds overlaps between test cases, merging database interactions from similar tests and removing others. By systematically discarding and merging redundant tests, STICCER creates a reduced test suite that is guaranteed to have the same coverage as the original one. Using thirty-four relational database schemas, we experimentally compared STICCER to two greedy test suite reduction techniques and a random method. The results show that, compared to the greedy and random methods, STICCER is the most effective at reducing the number of test cases and database interactions while maintaining test effectiveness as measured by the mutation score.
+                                Given that a relational database is a critical component of many software applications, it is important to thoroughly test the integrity constraints of a database’s schema, because they protect the data. Although automated test data generation techniques ameliorate the otherwise manual task of database schema testing, they often create test suites that contain many, sometimes redundant, tests. Since prior work presented a hybridized test suite reduction technique, called STICCER, that beneficially combined Greedy test suite reduction with a test merging method customized for database schemas, this paper experimentally evaluates a different hybridization. Motivated by prior results showing that test suite reduction with the Harrold-Gupta-Soffa (HGS) method can be more effective than Greedy at reducing database schema test suites, this paper eval- uates an HGS-driven STICCER variant with both a computational and a human study. Using 34 database schemas and tests created by two test data generators, the results from the computational study reveal that, while STICCER is equally efficient and effective when combined with either Greedy or HGS, it is always better than the isolated use of either Greedy or HGS. Involving 27 participants, the human study shows that, when compared to test suites reduced by HGS, those reduced by a STICCER-HGS hybrid allow humans to inspect test cases faster, but not always more accurately.
                             </p>
                             <hr />
                             <p>
                                 <h6>Reference</h6><br />
-                                Alsharif, A., Kapfhammer, G. M., & McMinn, P. (2020). STICCER: Fast and Effective Database Test Suite Reduction Through Merging of Similar Test Cases.
-                                In Proceedings of the 13th International Conference on Software Testing, Verification and Validation
+                                Abdullah Alsharif, Gregory M. Kapfhammer, and Phil McMinn (2020). Hybrid Methods for Reducing Database Schema Test Suites: Experimental Insights from Computational and Human Studies. Proceedings of the 1st IEEE/ACM International Conference on Automation of Software Test
                             </p>
 
                             <hr />
@@ -199,10 +197,10 @@
                             </p>
                             <pre class="grey lighten-3"
                                 style="font-family:courier; text-align:left;white-space: pre-wrap;">
-                @inproceedings{Alsharif2020a,
+                @inproceedings{Alsharif2020b,
                   author       = {Abdullah Alsharif and Gregory M. Kapfhammer and Phil McMinn},
-                  title        = {STICCER: Fast and Effective Database Test Suite Reduction Through Merging of Similar Test Cases},
-                  booktitle    = {Proceedings of the 13th International Conference on Software Testing, Verification and Validation},
+                  title        = {Hybrid Methods for Reducing Database Schema Test Suites: Experimental Insights from Computational and Human Studies},
+                  booktitle    = {Proceedings of the 1st IEEE/ACM International Conference on Automation of Software Test},
                   year         = {2020}
                 }
               </pre>
